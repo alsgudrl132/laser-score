@@ -1,0 +1,108 @@
+# ===================================
+# Node.js
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+logs
+*.log
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ===================================
+# React (with Vite, CRA, Next.js)
+# ===================================
+# General
+.cache/
+.vite/
+.next/
+out/
+coverage/
+*.local
+*.env.*
+
+# CRA
+*.tgz
+*.zip
+
+# Test
+jest/
+cypress/
+*.spec.ts
+*.spec.js
+*.test.ts
+*.test.js
+*.snap
+
+# Vercel / Netlify
+.vercel/
+.netlify/
+
+# ===================================
+# STM32CubeIDE / CubeMX
+# ===================================
+# STM32 generated files
+*.ioc
+*.lst
+*.map
+*.bak
+*.elf
+*.bin
+*.hex
+*.d
+*.o
+*.su
+*.dep
+*.i
+*.s
+
+# CubeIDE
+Debug/
+Release/
+build/
+*.launch
+.settings/
+.cproject
+.project
+mxproject.yml
+.idea/
+
+# Keil uVision (if applicable)
+*.uvoptx
+*.uvgui.*
+
+# ===================================
+# VSCode
+# ===================================
+.vscode/
+.history/
+
+# ===================================
+# General Backup / Temp
+# ===================================
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+~$*
+
